@@ -42,7 +42,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -127,7 +127,406 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Game_Design-6-removebg-preview_0
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 361
+        width: 33
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ba8522cfa8769c41b519fd76b3b96ba
+      internalID: 1427025251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_Design-6-removebg-preview_1
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 372
+        width: 6
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8088c5c77fa7247499ac5f5d5ca26d4d
+      internalID: -871983289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_Design-6-removebg-preview_2
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 377
+        width: 22
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7b9b4e196495724aa69d45dbc89a4b7
+      internalID: -399030114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_Design-6-removebg-preview_3
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 371
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87ee3599b29424440bd0fbfa0785b219
+      internalID: 1832198027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_Design-6-removebg-preview_4
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 372
+        width: 6
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42d986c6c4538ef40a2f5d1385f58ce4
+      internalID: 1111962720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_Design-6-removebg-preview_5
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 380
+        width: 26
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b97a938ac28e0642a63ccc5640ce925
+      internalID: 350770248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_Design-6-removebg-preview_6
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 379
+        width: 5
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2df9a0f39068b14b8be7827297e95ef
+      internalID: -1808588969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_Design-6-removebg-preview_7
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 377
+        width: 5
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 400f43a880233ae4cba7ec7ce2047d76
+      internalID: -1259651106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_Design-6-removebg-preview_8
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 353
+        width: 25
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eced1580662cadc4d83fe01624ecd493
+      internalID: 1664327291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_Design-6-removebg-preview_9
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 346
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c089d4b17e8c55438b3ed69525ece01
+      internalID: -1619151800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_Design-6-removebg-preview_10
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 348
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea3d4338845c3c1479c4528fe35fd1e0
+      internalID: 1022567395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_Design-6-removebg-preview_11
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 348
+        width: 13
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e53c35c47319c8b4bba6b62c73962457
+      internalID: -1235632007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_Design-6-removebg-preview_12
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 336
+        width: 306
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d18f5cfeb8ebdc34fb7720fb41fc88cc
+      internalID: 726534501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_Design-6-removebg-preview_13
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 329
+        width: 6
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 292557166fe379348883c47da52c6406
+      internalID: 379469902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_Design-6-removebg-preview_14
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 331
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb6336350fadd184fa89176079ca2f0b
+      internalID: -2095974512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_Design-6-removebg-preview_15
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 334
+        width: 20
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69e983ae484c420479aeaa852723f366
+      internalID: -633707533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_Design-6-removebg-preview_16
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 106
+        width: 127
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c39ef3d23c67d348837d9748b63c6bc
+      internalID: -994126677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_Design-6-removebg-preview_17
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 106
+        width: 154
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56644edf461411e4593c3f8ac2423d16
+      internalID: 1774649896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game_Design-6-removebg-preview_18
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 101
+        width: 162
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 297923e8c8d6d7748a5f0a156ae02461
+      internalID: 1520077032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -138,7 +537,26 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Game_Design-6-removebg-preview_15: -633707533
+      Game_Design-6-removebg-preview_10: 1022567395
+      Game_Design-6-removebg-preview_11: -1235632007
+      Game_Design-6-removebg-preview_16: -994126677
+      Game_Design-6-removebg-preview_2: -399030114
+      Game_Design-6-removebg-preview_3: 1832198027
+      Game_Design-6-removebg-preview_17: 1774649896
+      Game_Design-6-removebg-preview_7: -1259651106
+      Game_Design-6-removebg-preview_0: 1427025251
+      Game_Design-6-removebg-preview_14: -2095974512
+      Game_Design-6-removebg-preview_13: 379469902
+      Game_Design-6-removebg-preview_12: 726534501
+      Game_Design-6-removebg-preview_9: -1619151800
+      Game_Design-6-removebg-preview_6: -1808588969
+      Game_Design-6-removebg-preview_1: -871983289
+      Game_Design-6-removebg-preview_4: 1111962720
+      Game_Design-6-removebg-preview_5: 350770248
+      Game_Design-6-removebg-preview_8: 1664327291
+      Game_Design-6-removebg-preview_18: 1520077032
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

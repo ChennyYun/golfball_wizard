@@ -21,11 +21,11 @@ public class ElementClick : MonoBehaviour
     void Update()
     {
         Vector3 mouse = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-        
+
         if (Input.GetMouseButtonDown(0))
         {
             Collider2D targetObject = Physics2D.OverlapPoint(mouse);
-            if(targetObject)
+            if (targetObject && targetObject.tag != "platform")
             {
                 selectedObject = targetObject.transform.gameObject;
                 mouseOffset = selectedObject.transform.position - mouse;
@@ -42,7 +42,7 @@ public class ElementClick : MonoBehaviour
             var results = new List<Collider2D>();
             int numColliders = coll.OverlapCollider(new ContactFilter2D().NoFilter(), results);
             Debug.Log(numColliders);
-            if(numColliders > 0)
+            if (numColliders > 0)
             {
                 Debug.Log("There are colliders!");
                 foreach (Collider2D collider in results)
@@ -53,11 +53,24 @@ public class ElementClick : MonoBehaviour
             }
             selectedObject = null;
         }
+
+       float maxDistance = 0.8f;
+        RaycastHit2D hit = Physics2D.Raycast(gameObject.transform.position, Vector2.down, maxDistance, LayerMask.GetMask("Platform"));
+        if (hit.collider != null)
+        {
+            Debug.Log("Here");
+            PlatformBehavior platformBehavior = hit.collider.gameObject.GetComponent<PlatformBehavior>();
+            if (platformBehavior != null)
+            {
+                platformBehavior.ApplyElementEffect(gameObject.name);
+                Destroy(gameObject);
+            }
+        }
     }
 
     bool DoCombination(GameObject element1, GameObject element2)
     {
-        string[] elements = {"fire", "water", "wind", "earth"};
+        string[] elements = { "fire", "water", "wind", "earth" };
         bool element1found = false;
         bool element2found = false;
         foreach (string element in elements)
@@ -73,7 +86,7 @@ public class ElementClick : MonoBehaviour
                 Debug.Log("Element2 found!");
             }
         }
-        if(element1found && element2found)
+        if (element1found && element2found)
         {
             string combination = CheckCombination(element1.name, element2.name);
             foreach (GameObject combo in combinations)
@@ -94,37 +107,37 @@ public class ElementClick : MonoBehaviour
     {
         var fireCombos = new Dictionary<string, string>{
             {"wind", "lightning"},
-            {"earth", "lava"}, 
+            {"earth", "lava"},
             {"water", "steam"}
         };
         var waterCombos = new Dictionary<string, string>{
             {"wind", "cloud"},
-            {"earth", "mud"}, 
+            {"earth", "mud"},
             {"fire", "steam"}
         };
         var earthCombos = new Dictionary<string, string>{
             {"wind", "mirror"},
-            {"fire", "lava"}, 
+            {"fire", "lava"},
             {"water", "mud"}
         };
         var windCombos = new Dictionary<string, string>{
             {"fire", "lightning"},
-            {"earth", "mirror"}, 
+            {"earth", "mirror"},
             {"water", "cloud"}
         };
-        if(name1 == "fire")
+        if (name1 == "fire")
         {
             return fireCombos[name2];
         }
-        if(name1 == "water")
+        if (name1 == "water")
         {
             return waterCombos[name2];
         }
-        if(name1 == "earth")
+        if (name1 == "earth")
         {
             return earthCombos[name2];
         }
-        if(name1 == "wind")
+        if (name1 == "wind")
         {
             return windCombos[name2];
         }
